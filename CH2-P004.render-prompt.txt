@@ -1,0 +1,55 @@
+Render CH2-P004 at 1024×1536 pixels as two registered PNG files plus one authoritative text file: IAKESI-CH2-004-art.png, IAKESI-CH2-004-lettering.png, and IAKESI-CH2-004-text.txt.
+ARTWORK FILE — IAKESI-CH2-004-art.png: finished full-color page artwork only. Include panels, gutters, environments, characters, props, lighting and visual effects; include no speech balloons, thought balloons, narration boxes, lettering, captions, non-diegetic SFX, page numbers, panel numbers, or lettering placeholders.
+LETTERING FILE — IAKESI-CH2-004-lettering.png: transparent RGBA overlay at the identical pixel dimensions and registration. Include only the specified speech balloons, thought balloons, narration boxes, tails/dots, text, and non-diegetic SFX. Every other pixel must remain transparent; include no artwork and no page number.
+OUTPUT DIRECTORY — BINDING: place all three deliverables in the RenderedPages/ subdirectory of the current chapter project directory. Create RenderedPages/ if it does not exist, when filesystem access is available. Required relative output paths: RenderedPages/IAKESI-CH2-004-art.png; RenderedPages/IAKESI-CH2-004-lettering.png; RenderedPages/IAKESI-CH2-004-text.txt. Do not place final deliverables in RenderPackages/ or the chapter root. If rendering takes place in an environment without access to the user's chapter filesystem, return the three files with these exact filenames for installation into RenderedPages/; do not claim they were saved locally.
+Use 4 panels arranged vertically in reading order.
+Use the attached page package as the authoritative resolved SBL source if any ambiguity remains.
+Global production rules — BINDING:
+- Style: full-color manga
+- Canvas: 1024x1536
+- Print Rules: not applicable
+- Lettering: CSP final — ALL CAPS
+- Source: Chapter 2 frozen script
+Use these attached canonical/authoritative references as binding for the aspects they define: Assets/Manga Me Character Sheet.png, Assets/Manga-Me-Commentary-Gestures/Manga-Me-Gesture-Point.png, Assets/Manga-Me-Commentary-Gestures/Manga-Me-Gesture-React.png, Assets/Manga-Me-Commentary-Gestures/Manga-Me-Gesture-Refine.png.
+Canonical character identity:
+- Manga Me: BINDING VISUAL IDENTITY: match the canonical character reference images exactly for face, proportions, hair geometry, ears, body type, colors, and the costume state specified here. Use these images for DESIGN/IDENTITY, not for rendering style; translate the design into the binding page rendering style: Assets/Manga Me Character Sheet.png Do not substitute a different face, apparent age, hair color, hairstyle, ear type, body type, or costume.
+Do not draw trim, crop, registration, bleed, or production marks.
+
+Panel 1:
+- Panel direction (not printed text): Full-color manga only. No text or balloons in base art. CSP lettering ALL CAPS, one tail to Manga Me, never crop speaker. Keep bubbles inside panel and preserve left-to-right reading order.
+- Setting: Manga Me holds printed spreads; folios all appear on the same side, added later in CSP.
+- Scene: Panel 1 — The page-number disaster
+- Blocking: Manga Me must be fully visible, with face unobstructed. Reserve left-to-right lettering space inside panel.
+- Characters: Manga Me.
+- CH2-P004-S01-D01: manga_me, speech balloon (one speaker tail): “MY CHAPTER 1 SBL HAD EMBEDDED EVERY PAGE NUMBER IN THE SAME CORNER.”
+
+Panel 2:
+- Panel direction (not printed text): Full-color manga only. No text or balloons in base art. CSP lettering ALL CAPS, one tail to Manga Me, never crop speaker. Keep bubbles inside panel and preserve left-to-right reading order.
+- Panel direction (not printed text): Use the supplied POINT crop as the sole gesture reference. Preserve Manga Me's identity from the canonical character sheet. Transfer the pointing pose without mirroring; anatomical left/right belongs to Manga Me, not the viewer. Do not copy the crop's background or label into the artwork.
+- Setting: Manga Me points to two facing printed pages with alternation indicated by arrows, no English in art.
+- Scene: Panel 2 — The page-number disaster
+- Blocking: Manga Me must be fully visible, with face unobstructed. Reserve left-to-right lettering space inside panel.
+- Characters: Manga Me.
+- CH2-P004-S02-D01: manga_me, speech balloon (one speaker tail): “FINE ON SCREEN. WRONG FOR PRINT, WHERE LEFT- AND RIGHT-FACING FOLIOS SHOULD ALTERNATE.”
+
+Panel 3:
+- Panel direction (not printed text): Full-color manga only. No text or balloons in base art. CSP lettering ALL CAPS, one tail to Manga Me, never crop speaker. Keep bubbles inside panel and preserve left-to-right reading order.
+- Panel direction (not printed text): Use the supplied REACT crop as the sole gesture reference. Preserve Manga Me's identity from the canonical character sheet. Transfer the restrained palms-up reaction without mirroring and keep exactly four fingers plus one thumb on each visible hand. Do not copy the crop's background or label into the artwork.
+- Setting: Manga Me asks a stylized AI workstation to repair pages; results visibly uneven.
+- Scene: Panel 3 — The page-number disaster
+- Blocking: Manga Me must be fully visible, with face unobstructed. Reserve left-to-right lettering space inside panel.
+- Characters: Manga Me.
+- CH2-P004-S03-D01: manga_me, speech balloon (one speaker tail): “I ASKED CHATGPT TO FIX THEM WITHOUT REGENERATING THE CHAPTER. THE RESULTS LIVED UP TO THE PHRASE ‘AI SLOP.’”
+
+Panel 4:
+- Panel direction (not printed text): Full-color manga only. No text or balloons in base art. CSP lettering ALL CAPS, one tail to Manga Me, never crop speaker. Keep bubbles inside panel and preserve left-to-right reading order.
+- Panel direction (not printed text): Use the supplied REFINE crop as the sole gesture reference. Preserve Manga Me's identity from the canonical character sheet. Transfer the small precision-pinch pose without mirroring and keep exactly four fingers plus one thumb on each visible hand. Do not copy the crop's background or label into the artwork.
+- Setting: Manga Me fixes a pile of pages manually.
+- Scene: Panel 4 — The page-number disaster
+- Blocking: Manga Me must be fully visible, with face unobstructed. Reserve left-to-right lettering space inside panel.
+- Characters: Manga Me.
+- CH2-P004-S04-D01: manga_me, speech balloon (one speaker tail): “I CORRECTED ABOUT A THIRD BY HAND. I THOUGHT THE CHAPTER WAS FINALIZED. SHOWS HOW WRONG I WAS.”
+
+Story lettering rule: use exactly the 4 panel/story lettered items listed above, verbatim and in the stated balloon/chain structure. Do not invent, paraphrase, continue, summarize, or add any other story text. Page numbers are not part of this handoff and must not be rendered.
+PRODUCTION FOLIO RULE — BINDING: do not add a page number or panel number to either output. Folios are added manually in CSP.
+DELIVERY CHECK: return IAKESI-CH2-004-art.png and IAKESI-CH2-004-lettering.png as the two registered PNG layers. The companion IAKESI-CH2-004-text.txt is the authoritative wording file; both PNGs must be 1024×1536 pixels, perfectly registered, and unflattened.
